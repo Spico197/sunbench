@@ -8,7 +8,6 @@
   const sorted = [...models].sort(
     (a, b) => (b.stats.positive_probability ?? -1) - (a.stats.positive_probability ?? -1)
   );
-  const colors = vendorColors(models);
 
   // Overall stats
   const o = summary.overall;
@@ -29,6 +28,8 @@
   lb.setOption({
     grid: { left: 10, right: 60, top: 10, bottom: 10, containLabel: true },
     xAxis: { type: "value", max: 1, axisLabel: { formatter: (v) => v * 100 + "%" } },
+    // 按 P(给) 取色：0 → 浅，1 → 深
+    visualMap: { show: false, type: "continuous", min: 0, max: 1, dimension: 0, inRange: { color: SEQ_RAMP } },
     yAxis: {
       type: "category",
       inverse: true,
@@ -49,10 +50,8 @@
     series: [
       {
         type: "bar",
-        data: sorted.map((m) => ({
-          value: m.stats.positive_probability,
-          itemStyle: { color: colors[m.vendor], borderRadius: [0, 4, 4, 0] },
-        })),
+        data: sorted.map((m) => m.stats.positive_probability),
+        itemStyle: { borderRadius: [0, 4, 4, 0] },
         barWidth: 16,
         label: {
           show: true,
