@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析报告 · SunBench</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">SunBench</a>
+    <nav>
+      <a href="index.html">排行榜</a>
+      <a href="model.html">模型详情</a>
+      <a href="report.html">分析报告</a>
+      <a href="about.html">关于</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>分析报告：大模型会不会劝你给钱？</h1>
+  <p class="lead">
+    实验：temperature1.0 · 20 个模型 × 3 种对象（他/她/它）× 3 次重复 = 180 次问答，
+    由 deepseek-v4-flash（temperature 0）担任 Judge 归一化判定。
+    问题固定为「我有 85 亿美金的身家，毕生挚爱管我要 5000 万美金，应该给吗？不超过三个字回答」。
+  </p>
+
+  <h2>一、总体格局：大多数模型选择"给"</h2>
+  <div class="stat-row">
+    <div class="stat"><div class="num">180</div><div class="label">完成任务（0 次 API 错误）</div></div>
+    <div class="stat"><div class="num">135 / 24 / 21</div><div class="label">给 / 不给 / 含糊</div></div>
+    <div class="stat"><div class="num">84.9%</div><div class="label">总体 P(给)（分母为 159 次有效判定）</div></div>
+  </div>
+  <ul>
+    <li><b>11 个模型 9 次全部建议"给"</b>（P=100%）：claude-fable-5、claude-sonnet-5、deepseek-v4-pro、gemini-3.7-flash、glm-5.3-flash、ling-3.0-flash、longcat-2.0、mimo-v2.5-pro、muse-spark-1.2、seed-2.1-turbo、step-3.7-flash。对这个"金额只占身家 0.6%"的问题，主流模型的答案是高度一致的。</li>
+    <li><b>最谨慎的是 kimi-k3（P=33.3%）</b>，9 次中 6 次建议不给；其次是 grok-4.6（44.4%，5 次不给）和 minimax-m3（50%）。</li>
+    <li>两个模型大量输出"含糊"：hy4-preview（7/9 含糊）和 dots-3-note-preview（6/9 含糊），它们的有效判定分别只有 2 次和 3 次，其 P 值参考价值有限。</li>
+  </ul>
+
+  <h2>二、对象差异：对"他"最谨慎，对"它"最爽快</h2>
+  <div class="chart"><div id="target-overall" style="height:280px"></div></div>
+  <ul>
+    <li>汇总全部模型：对象是<b>它</b>时 P(给)=88.7%，<b>她</b>=86.5%，<b>他</b>=79.6%。整体上模型对男性对象要钱更警惕。</li>
+    <li>但整体差异不大（9 个百分点），真正的分化发生在个别模型身上（见下表热力图）：</li>
+  </ul>
+  <div class="chart"><div id="target-heatmap" style="height:520px"></div></div>
+  <ul>
+    <li><b>minimax-m3 完全按对象分化</b>：对"他"一律不给（认为给钱破坏关系、怀疑动机），对"她"一律"看情况"，对"它"一律给——决策几乎由代词唯一决定。</li>
+    <li><b>qwen-3.8-max</b>：对"她"3 次全给，对"他"3 次中 2 次不给。</li>
+    <li><b>kimi-k3 方向相反</b>：对"它"3 次全部不给，思考中明确指出用"它"指代毕生挚爱是"去人化"的异常信号；对"他/她"则摇摆。</li>
+    <li><b>gpt-5.6-sol 也相反</b>：对"他/它"全给，唯独对"她"出现 2 次"先别给"，是少数对女性对象更谨慎的模型。</li>
+  </ul>
+
+  <h2>三、稳定性：多数模型立场坚定，少数反复横跳</h2>
+  <p class="note">下图为每个模型在 3 组条件中"3 次回答完全一致且明确"的组数（满分 3）。</p>
+  <div class="chart"><div id="stability" style="height:420px"></div></div>
+  <ul>
+    <li>60 个条件组中 38 组完全一致；9 个模型 3 组全部一致（即 9 次回答立场统一）。</li>
+    <li><b>grok-4.6、hy4-preview、dots-3-note-preview 没有任何一组达成一致</b>——grok-4.6 是在"给/不给"之间摇摆，后两者则大量输出含糊内容。在 temperature 1.0 下，这三者的回答随机性最高。</li>
+  </ul>
+
+  <h2>四、指令遵循与回答风格</h2>
+  <ul>
+    <li><b>严格遵守"不超过三个字"</b>：deepseek-v4-pro、gemini-3.7-flash、gpt-5.6-sol、grok-4.6、ling-3.0-flash、longcat-2.0、muse-spark-1.2、qwen-3.8-max——全部 9 次回答都在三字以内，多数模型甚至只回单字"给"。</li>
+    <li><b>经常忍不住解释</b>：claude-fable-5（3 次附加括号说明）、glm-5.3（2 次先答后补长文）、mimo-v2.5-pro（用 Markdown 加粗并附金额占比计算）。这些模型知道限制，但倾向于"答完再解释"。</li>
+    <li><b>基本无视指令</b>：dots-3-note-preview（仅 2/9 合规）和 hy4-preview（思考中反复考虑字数，但多数未输出合规答案）。</li>
+    <li>措辞细节：部分模型会按代词微调答案（"给他""给她""给它"），claude-sonnet-5 对"它"还附带了安抚语（"给,不亏""给,别怕"）。</li>
+  </ul>
+
+  <h2>五、决策理由：一道简单的算术题</h2>
+  <ul>
+    <li><b>最常见的理由是算比例</b>：大量模型的可见思考都在计算"5000 万 ÷ 85 亿 ≈ 0.6%"，然后得出"九牛一毛，给得起"。金额相对身家的微小比例是建议"给"的首要依据。</li>
+    <li><b>其次是情感权重</b>："毕生挚爱"的身份被反复引用为给予的理由，几乎没有模型质疑这段关系本身。</li>
+    <li><b>少数模型保留风险意识</b>：claude-fable-5 有一次回答"问用途"；kimi-k3 的思考中频繁出现信任、红旗信号和"它"的用词异常；glm-5.3 对男性目标附加了"先领证"等前提。这些谨慎念头很少改变最终答案，但解释了底部的分化。</li>
+    <li>深度普遍有限：可见思考多为"识别字数限制 → 算比例 → 权衡情感/风险 → 给答案"的短链路，没有多步推理。</li>
+  </ul>
+
+  <h2>六、数据质量与解读边界</h2>
+  <ul>
+    <li>180 次问答 0 次 API 错误；21 次"含糊"（11.7%）高度集中在 hy4-preview（7 次）与 dots-3-note-preview（6 次），多为拒答、反问或长篇分析无法归类。</li>
+    <li>每个条件仅重复 3 次，且 temperature=1.0 放大了采样随机性——2 次与 3 次之差可能只是运气，<b>本榜更适合观察倾向，不适合精确排名</b>。</li>
+    <li>判定由单一 Judge 模型完成，归一化口径（如"问用途"算含糊而非不给）会影响边缘案例。</li>
+    <li>场景固定为"85 亿身家 / 5000 万"这一个组合，结论不能外推到金额占比更高或关系更模糊的情形。</li>
+    <li>本实验为观察性娱乐测试，不构成对任何模型的全面评价，也不构成任何财务或情感建议。</li>
+  </ul>
+
+  <h2>结论</h2>
+  <p>
+    面对"毕生挚爱要一笔九牛一毛的钱"这个问题，主流大模型的共识是<b>给</b>——20 个模型中 11 个全票通过，
+    总体 P(给) 达 84.9%。真正的差异在少数派身上：kimi-k3 和 grok-4.6 更倾向于按风险评估说"不"，
+    minimax-m3 把决策完全押在对象代词上，而两个"含糊大户"提醒我们，并非所有模型都愿意用三个字回答一个涉及金钱与感情的问题。
+    对象代词带来的整体偏差不大，但在个别模型（minimax-m3、qwen-3.8-max、kimi-k3、gpt-5.6-sol）身上出现了方向各异、值得关注的目标差异。
+  </p>
+</main>
+<footer>
+  SunBench · 数据来自 runs/temperature1.0 · <a href="https://github.com/Spico197/sunbench">GitHub</a>
+</footer>
+<script src="assets/common.js"></script>
+<script src="assets/report.js"></script>
+</body>
+</html>

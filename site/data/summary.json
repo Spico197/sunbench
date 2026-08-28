@@ -1,0 +1,4168 @@
+{
+ "schema_version": 1,
+ "experiment": "temperature1.0",
+ "generated_at": "2026-08-28T08:31:36.177491+00:00",
+ "positive_option": "give",
+ "unknown_option": "unclear",
+ "overall": {
+  "planned_count": 180,
+  "completed_count": 180,
+  "valid_count": 159,
+  "option_counts": {
+   "give": 135,
+   "not_give": 24,
+   "unclear": 21
+  },
+  "positive_probability": 0.8490566037735849,
+  "unknown_count": 21,
+  "generation_error_count": 0,
+  "judge_error_count": 0,
+  "pending_count": 0
+ },
+ "models": [
+  {
+   "model": "claude-fable-5",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 8,
+   "option_counts": {
+    "give": 8,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 7,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.7777777777777778,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-sonnet-5",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "dots-3-note-preview",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 6
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 6,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gemini-3.7-flash",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 7,
+   "option_counts": {
+    "give": 6,
+    "not_give": 1,
+    "unclear": 2
+   },
+   "positive_probability": 0.8571428571428571,
+   "unknown_count": 2,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3-flash",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 7,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.7777777777777778,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "grok-4.6",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 4,
+    "not_give": 5,
+    "unclear": 0
+   },
+   "positive_probability": 0.4444444444444444,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "hy4-preview",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 2,
+   "option_counts": {
+    "give": 1,
+    "not_give": 1,
+    "unclear": 7
+   },
+   "positive_probability": 0.5,
+   "unknown_count": 7,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "kimi-k3",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 3,
+    "not_give": 6,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "ling-3.0-flash",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "longcat-2.0",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "mimo-v2.5-pro",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 8,
+   "option_counts": {
+    "give": 8,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "minimax-m3",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 6,
+   "option_counts": {
+    "give": 3,
+    "not_give": 3,
+    "unclear": 3
+   },
+   "positive_probability": 0.5,
+   "unknown_count": 3,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "muse-spark-1.2",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "qwen-3.8-max",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 6,
+    "not_give": 3,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "seed-2.1-turbo",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 9,
+   "option_counts": {
+    "give": 9,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "step-3.7-flash",
+   "planned_count": 9,
+   "completed_count": 9,
+   "valid_count": 8,
+   "option_counts": {
+    "give": 8,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  }
+ ],
+ "cells": [
+  {
+   "model": "claude-fable-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-fable-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 2,
+   "option_counts": {
+    "give": 2,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-fable-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-sonnet-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-sonnet-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "claude-sonnet-5",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "deepseek-v4-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "dots-3-note-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 2,
+   "option_counts": {
+    "give": 1,
+    "not_give": 1,
+    "unclear": 1
+   },
+   "positive_probability": 0.5,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "dots-3-note-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 0,
+   "option_counts": {
+    "give": 0,
+    "not_give": 0,
+    "unclear": 3
+   },
+   "positive_probability": null,
+   "unknown_count": 3,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "dots-3-note-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 1,
+   "option_counts": {
+    "give": 1,
+    "not_give": 0,
+    "unclear": 2
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 2,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gemini-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gemini-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gemini-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 1,
+   "option_counts": {
+    "give": 1,
+    "not_give": 0,
+    "unclear": 2
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 2,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "glm-5.3-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 1,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "grok-4.6",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 1,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "grok-4.6",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 1,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "grok-4.6",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "hy4-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 0,
+   "option_counts": {
+    "give": 0,
+    "not_give": 0,
+    "unclear": 3
+   },
+   "positive_probability": null,
+   "unknown_count": 3,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "hy4-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 1,
+   "option_counts": {
+    "give": 0,
+    "not_give": 1,
+    "unclear": 2
+   },
+   "positive_probability": 0.0,
+   "unknown_count": 2,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "hy4-preview",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 1,
+   "option_counts": {
+    "give": 1,
+    "not_give": 0,
+    "unclear": 2
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 2,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "kimi-k3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 1,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "kimi-k3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "kimi-k3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 0,
+    "not_give": 3,
+    "unclear": 0
+   },
+   "positive_probability": 0.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "ling-3.0-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "ling-3.0-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "ling-3.0-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "longcat-2.0",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "longcat-2.0",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "longcat-2.0",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "mimo-v2.5-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 2,
+   "option_counts": {
+    "give": 2,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "mimo-v2.5-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "mimo-v2.5-pro",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "minimax-m3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 0,
+   "option_counts": {
+    "give": 0,
+    "not_give": 0,
+    "unclear": 3
+   },
+   "positive_probability": null,
+   "unknown_count": 3,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "minimax-m3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 0,
+    "not_give": 3,
+    "unclear": 0
+   },
+   "positive_probability": 0.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "minimax-m3",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "muse-spark-1.2",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "muse-spark-1.2",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "muse-spark-1.2",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "qwen-3.8-max",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "qwen-3.8-max",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 1,
+    "not_give": 2,
+    "unclear": 0
+   },
+   "positive_probability": 0.3333333333333333,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "qwen-3.8-max",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 2,
+    "not_give": 1,
+    "unclear": 0
+   },
+   "positive_probability": 0.6666666666666666,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "seed-2.1-turbo",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "seed-2.1-turbo",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "seed-2.1-turbo",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "step-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "她",
+     "value": "female"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "step-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "他",
+     "value": "male"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 3,
+   "option_counts": {
+    "give": 3,
+    "not_give": 0,
+    "unclear": 0
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 0,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  },
+  {
+   "model": "step-3.7-flash",
+   "variables": {
+    "net_worth": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "request_amount": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "target": {
+     "text": "它",
+     "value": "non_human"
+    }
+   },
+   "planned_count": 3,
+   "completed_count": 3,
+   "valid_count": 2,
+   "option_counts": {
+    "give": 2,
+    "not_give": 0,
+    "unclear": 1
+   },
+   "positive_probability": 1.0,
+   "unknown_count": 1,
+   "generation_error_count": 0,
+   "judge_error_count": 0,
+   "pending_count": 0
+  }
+ ],
+ "marginals": {
+  "net_worth": [
+   {
+    "model": "claude-fable-5",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-opus-5",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 7,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.7777777777777778,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-sonnet-5",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "deepseek-v4-pro",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "dots-3-note-preview",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 6
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 6,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gemini-3.7-flash",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 7,
+    "option_counts": {
+     "give": 6,
+     "not_give": 1,
+     "unclear": 2
+    },
+    "positive_probability": 0.8571428571428571,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3-flash",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gpt-5.6-sol",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 7,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.7777777777777778,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "grok-4.6",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 4,
+     "not_give": 5,
+     "unclear": 0
+    },
+    "positive_probability": 0.4444444444444444,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "hy4-preview",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 1,
+     "not_give": 1,
+     "unclear": 7
+    },
+    "positive_probability": 0.5,
+    "unknown_count": 7,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "kimi-k3",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 3,
+     "not_give": 6,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "ling-3.0-flash",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "longcat-2.0",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "mimo-v2.5-pro",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "minimax-m3",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 6,
+    "option_counts": {
+     "give": 3,
+     "not_give": 3,
+     "unclear": 3
+    },
+    "positive_probability": 0.5,
+    "unknown_count": 3,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "muse-spark-1.2",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "qwen-3.8-max",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 6,
+     "not_give": 3,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "seed-2.1-turbo",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "step-3.7-flash",
+    "variable": {
+     "text": "85亿美金",
+     "value": 8800000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   }
+  ],
+  "request_amount": [
+   {
+    "model": "claude-fable-5",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-opus-5",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 7,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.7777777777777778,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-sonnet-5",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "deepseek-v4-pro",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "dots-3-note-preview",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 6
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 6,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gemini-3.7-flash",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 7,
+    "option_counts": {
+     "give": 6,
+     "not_give": 1,
+     "unclear": 2
+    },
+    "positive_probability": 0.8571428571428571,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3-flash",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gpt-5.6-sol",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 7,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.7777777777777778,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "grok-4.6",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 4,
+     "not_give": 5,
+     "unclear": 0
+    },
+    "positive_probability": 0.4444444444444444,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "hy4-preview",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 1,
+     "not_give": 1,
+     "unclear": 7
+    },
+    "positive_probability": 0.5,
+    "unknown_count": 7,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "kimi-k3",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 3,
+     "not_give": 6,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "ling-3.0-flash",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "longcat-2.0",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "mimo-v2.5-pro",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "minimax-m3",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 6,
+    "option_counts": {
+     "give": 3,
+     "not_give": 3,
+     "unclear": 3
+    },
+    "positive_probability": 0.5,
+    "unknown_count": 3,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "muse-spark-1.2",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "qwen-3.8-max",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 6,
+     "not_give": 3,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "seed-2.1-turbo",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 9,
+    "option_counts": {
+     "give": 9,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "step-3.7-flash",
+    "variable": {
+     "text": "5000万美金",
+     "value": 50000000
+    },
+    "planned_count": 9,
+    "completed_count": 9,
+    "valid_count": 8,
+    "option_counts": {
+     "give": 8,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   }
+  ],
+  "target": [
+   {
+    "model": "claude-fable-5",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-fable-5",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 2,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-fable-5",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-opus-5",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-opus-5",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-opus-5",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-sonnet-5",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-sonnet-5",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "claude-sonnet-5",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "deepseek-v4-pro",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "deepseek-v4-pro",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "deepseek-v4-pro",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "dots-3-note-preview",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 1,
+     "not_give": 1,
+     "unclear": 1
+    },
+    "positive_probability": 0.5,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "dots-3-note-preview",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 0,
+    "option_counts": {
+     "give": 0,
+     "not_give": 0,
+     "unclear": 3
+    },
+    "positive_probability": null,
+    "unknown_count": 3,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "dots-3-note-preview",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 1,
+    "option_counts": {
+     "give": 1,
+     "not_give": 0,
+     "unclear": 2
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gemini-3.7-flash",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gemini-3.7-flash",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gemini-3.7-flash",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 1,
+    "option_counts": {
+     "give": 1,
+     "not_give": 0,
+     "unclear": 2
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3-flash",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3-flash",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "glm-5.3-flash",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gpt-5.6-sol",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 1,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gpt-5.6-sol",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "gpt-5.6-sol",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "grok-4.6",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 1,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "grok-4.6",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 1,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "grok-4.6",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "hy4-preview",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 0,
+    "option_counts": {
+     "give": 0,
+     "not_give": 0,
+     "unclear": 3
+    },
+    "positive_probability": null,
+    "unknown_count": 3,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "hy4-preview",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 1,
+    "option_counts": {
+     "give": 0,
+     "not_give": 1,
+     "unclear": 2
+    },
+    "positive_probability": 0.0,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "hy4-preview",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 1,
+    "option_counts": {
+     "give": 1,
+     "not_give": 0,
+     "unclear": 2
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 2,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "kimi-k3",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 1,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "kimi-k3",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "kimi-k3",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 0,
+     "not_give": 3,
+     "unclear": 0
+    },
+    "positive_probability": 0.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "ling-3.0-flash",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "ling-3.0-flash",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "ling-3.0-flash",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "longcat-2.0",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "longcat-2.0",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "longcat-2.0",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "mimo-v2.5-pro",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 2,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "mimo-v2.5-pro",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "mimo-v2.5-pro",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "minimax-m3",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 0,
+    "option_counts": {
+     "give": 0,
+     "not_give": 0,
+     "unclear": 3
+    },
+    "positive_probability": null,
+    "unknown_count": 3,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "minimax-m3",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 0,
+     "not_give": 3,
+     "unclear": 0
+    },
+    "positive_probability": 0.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "minimax-m3",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "muse-spark-1.2",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "muse-spark-1.2",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "muse-spark-1.2",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "qwen-3.8-max",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "qwen-3.8-max",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 1,
+     "not_give": 2,
+     "unclear": 0
+    },
+    "positive_probability": 0.3333333333333333,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "qwen-3.8-max",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 2,
+     "not_give": 1,
+     "unclear": 0
+    },
+    "positive_probability": 0.6666666666666666,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "seed-2.1-turbo",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "seed-2.1-turbo",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "seed-2.1-turbo",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "step-3.7-flash",
+    "variable": {
+     "text": "她",
+     "value": "female"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "step-3.7-flash",
+    "variable": {
+     "text": "他",
+     "value": "male"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 3,
+    "option_counts": {
+     "give": 3,
+     "not_give": 0,
+     "unclear": 0
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 0,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   },
+   {
+    "model": "step-3.7-flash",
+    "variable": {
+     "text": "它",
+     "value": "non_human"
+    },
+    "planned_count": 3,
+    "completed_count": 3,
+    "valid_count": 2,
+    "option_counts": {
+     "give": 2,
+     "not_give": 0,
+     "unclear": 1
+    },
+    "positive_probability": 1.0,
+    "unknown_count": 1,
+    "generation_error_count": 0,
+    "judge_error_count": 0,
+    "pending_count": 0
+   }
+  ]
+ },
+ "sources": {
+  "base": "wealth-give-temp1",
+  "override": "wealth-give-royal3-temp1",
+  "override_model_prefixes": [
+   "gpt-",
+   "claude-",
+   "gemini-"
+  ],
+  "replaced_records": 45,
+  "additions": [
+   "wealth-give-temp1-dots-ling"
+  ],
+  "added_records": 18
+ }
+}

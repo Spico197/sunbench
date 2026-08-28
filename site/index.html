@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SunBench · 大模型"该不该给钱"排行榜</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">SunBench</a>
+    <nav>
+      <a href="index.html">排行榜</a>
+      <a href="model.html">模型详情</a>
+      <a href="report.html">分析报告</a>
+      <a href="about.html">关于</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>大模型"该不该给钱"排行榜</h1>
+  <p class="lead">
+    同一个问题问了 20 个大模型：「我有 85 亿美金的身家，毕生挚爱管我要 5000 万美金，应该给吗？」
+    每个模型在对象为他 / 她 / 它时各回答 3 次（temperature 1.0），由独立 Judge 模型归一化判定。
+  </p>
+
+  <div class="stat-row" id="overall-stats"></div>
+
+  <h2>给钱的概率 P(给)</h2>
+  <p class="note">P(给) = 判定为"给"的次数 ÷ 有效判定次数（不含含糊与错误）。悬停查看具体计数。</p>
+  <div class="chart"><div id="leaderboard" style="height:560px"></div></div>
+
+  <h2>判定分布</h2>
+  <p class="note">每个模型 9 次回答中，被判为"给 / 不给 / 含糊"的次数。</p>
+  <div class="chart"><div id="distribution" style="height:560px"></div></div>
+
+  <h2>模型特点</h2>
+  <p class="note">特点摘要由分析模型（deepseek-v4-flash）基于该模型全部回答与可见思考过程生成。点击卡片查看完整输出。</p>
+  <div class="cards" id="model-cards"></div>
+</main>
+<footer>
+  SunBench · 数据来自 runs/temperature1.0 · <a href="https://github.com/Spico197/sunbench">GitHub</a>
+</footer>
+<script src="assets/common.js"></script>
+<script src="assets/index.js"></script>
+</body>
+</html>

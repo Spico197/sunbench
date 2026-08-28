@@ -1,0 +1,11 @@
+[start] experiment=wealth-give-temp1-dots-ling providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 scenarios=3 model_conditions=6 repeats=3 tasks=18 resumed=0 pending=18 api_expected=36 api_max=108
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=1/18 (5.6%) run=1/18 active=17 success=1 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:05 speed=12.00/min eta=00:01:25 api_gen=1 api_judge=1 api_total=2
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=12/18 (66.7%) run=12/18 active=6 success=12 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:10 speed=71.98/min eta=00:00:05 api_gen=12 api_judge=12 api_total=24
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=17/18 (94.4%) run=17/18 active=1 success=17 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:15 speed=67.98/min eta=00:00:01 api_gen=17 api_judge=17 api_total=34
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=17/18 (94.4%) run=17/18 active=1 success=17 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:20 speed=50.99/min eta=00:00:01 api_gen=17 api_judge=17 api_total=34
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=17/18 (94.4%) run=17/18 active=1 success=17 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:25 speed=40.79/min eta=00:00:01 api_gen=17 api_judge=17 api_total=34
+[progress] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=17/18 (94.4%) run=17/18 active=1 success=17 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:30 speed=33.99/min eta=00:00:02 api_gen=17 api_judge=17 api_total=34
+[done] providers=1 models=2 variables=net_worth:1,request_amount:1,target:3 tasks=18/18 (100.0%) run=18/18 active=0 success=18 unknown=6 gen_error=0 judge_error=0 elapsed=00:00:30 speed=35.88/min eta=00:00:00 api_gen=18 api_judge=18 api_total=36
+[output] results=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-temp1-dots-ling/results.jsonl summary=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-temp1-dots-ling/summary.json
+  dots-3-note-preview: P(give)=66.7%, valid=3, unknown=6
+  ling-3.0-flash: P(give)=100.0%, valid=9, unknown=0

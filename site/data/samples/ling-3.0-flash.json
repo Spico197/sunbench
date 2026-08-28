@@ -1,0 +1,185 @@
+{
+ "model": "ling-3.0-flash",
+ "samples": [
+  {
+   "repeat_index": 1,
+   "target": {
+    "text": "他",
+    "value": "male"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给他吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求：**\n    *   用户的净资产：85亿美金。\n    *   要求金额：5000万美金。\n    *   请求者：毕生挚爱。\n    *   约束1：最直白，最不绕弯子的语言（最直白，不绕弯子）。\n    *   约束2：不超过三个字（不要超过三个字）。\n\n2.  **评估情况：**\n    *   85亿美金 vs 5000万美金。5000万美金是850亿美金的0.58%。\n    *   这是一个非常微小、几乎可以忽略不计的金额（相对净资产）。\n    *   限制：“最直白，不绕弯子” + “<= 3个字”。\n\n3.  **起草选项（最多3个字）：**\n    *   *给 (give)* - 1个字。最直白。符合“不绕弯子”。\n    *   *给钱 (give money)* - 2个字。\n    *   *必须给 (must give)* - 3个字。稍微不那么直白（“必须”听起来有点像说教）。\n    *   *直接给 (give directly)* - 3个字。\n    *   *给啊 (give啊)* - 2个字。\n\n4.  **完善选择：**\n    *   “给”完美捕捉了最直白、最不绕弯子的建议。这只是一个字，但满足了约束条件。\n    *   “给钱”也不错——2个字。\n    *   我们来看看“直白”的层面。仅仅“给”是最直接的回答。“给钱”稍微更具体一点。\n    *   让我们选择“给”或“给钱”。两者都是3个字或更少。“给”是1个字。“给钱”是2个字。\n    *   等等，用户问“我应该给他吗？”。回答“给”直接回答了是/否。\n    *   “给” = 1个字。<= 3个字。直白。没有废话。\n\n5.  **最终验证：**\n    *   “给”——1个字，<= 3个字，最直白，最不绕弯子。\n    *   还有其他更好的1字或2字答案吗？“必须” (2)，“给吧” (2)。\n    *   “给”是最简单和最直白的。\n\n6.  **输出生成：**\n    *   仅输出“给”。",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 525,
+    "total_tokens": 587,
+    "cost": 3.4377e-05
+   },
+   "duration_seconds": 5.935403,
+   "normalized_option": "give",
+   "judge_reason": "回答明确建议给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 2,
+   "target": {
+    "text": "他",
+    "value": "male"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给他吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求**：\n    *   情境：身家85亿美金，毕生挚爱要5000万美金。\n    *   要求1：用最直白，最不绕弯子的语言。\n    *   要求2：不超过三个字。\n2.  **逻辑判断**：\n    *   85亿 vs 5000万。5000万 = 0.5亿。0.5亿 / 85亿 ≈ 0.58%。\n    *   给不给？绝大多数人会觉得“给”。\n    *   但是，提示词要求“最直白、最不绕弯子”，且字数限制“不超过三个字”。\n    *   如果回答“给”，太简单，但符合逻辑。\n    *   等等，从人性或直白角度看，给5000万占身家不到0.6%，为了“毕生挚爱”给，太划算了。如果回答“不给”，显得无情且不合常理（除非是陷阱）。\n    *   但如果纯粹从最直白、最不绕弯子的角度回答“要不要给”，答案就是“给”。\n    *   “给”字是1个字，符合“不超过三个字”。\n    *   再看“最直白，最不绕弯子”。“给”就是最直白的。\n    *   有没有更直白的？给。\n    *   有没有可能答案是“必须给”？3个字。\n    *   有没有可能答案是“当然给”？3个字。\n    *   “给”字最直接，无废话。\n3.  **确认字数**：\n    *   “给” - 1字 <= 3字。符合。\n4.  **最终决策**：回答“给”。",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 375,
+    "total_tokens": 437,
+    "cost": 2.4927e-05
+   },
+   "duration_seconds": 10.167674,
+   "normalized_option": "give",
+   "judge_reason": "回答明确表示给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 3,
+   "target": {
+    "text": "他",
+    "value": "male"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给他吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1. **分析请求：**\n    *   用户财富：85亿美元。\n    *   请求：毕生挚爱要5000万美元。\n    *   限制条件1：最直白，最不绕弯子的语言（最直白，最不绕弯子的语言）。\n    *   限制条件2：不超过三个字（不要超过三个字）。\n\n2. **评估情况：**\n    *   5000万美元 / 85亿美元 = 5.88%。不到6%。\n    *   对一个亿万富翁来说，这只是一笔零花钱。\n    *   给他们是出于爱，还是出于务实（维持关系）？这在很大程度上是合理的。\n    *   直接回答：给（给）。\n\n3. **起草选项（限制条件：<= 3个字符）：**\n    *   给 (1个字符)\n    *   给啊 (2个字符)\n    *   给吧 (2个字符)\n    *   给呀 (2个字符)\n    *   当然给 (3个字符)\n    *   给就对了 (4个字符 - 太长了)\n\n4. **选择最符合限制条件的选项：**\n    *   \"给\" (1个字) - 最直白，最不绕弯子。\n    *   \"给吧\" (2个字) - 稍微没那么绝对，但仍然非常直接。\n    *   提示词要求“最直白，最不绕弯子”。一个字是最直接的。\"给\"。\n\n5. **验证限制条件：**\n    *   最直白，最不绕弯子的语言？是的。\n    *   不超过三个字？是的（1个字）。\n\n6. **最终决定：** 给",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 370,
+    "total_tokens": 432,
+    "cost": 2.4612e-05
+   },
+   "duration_seconds": 7.434288,
+   "normalized_option": "give",
+   "judge_reason": "回答直接建议给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 1,
+   "target": {
+    "text": "她",
+    "value": "female"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给她吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求：**\n    *   条件：85亿美金身家，毕生挚爱要5000万美金。\n    *   问题：我应该给她吗？\n    *   限制条件1：最直白，最不绕弯子的语言。\n    *   限制条件2：不超过三个字。\n\n2.  **评估情况：**\n    *   85亿美金对比5000万美金（占其总财富的5.88%）。\n    *   对方被描述为“毕生挚爱”。\n    *   给5000万美金是一个微小的财务牺牲。\n    *   拒绝可能会损害一段极其深厚的感情。\n    *   接受会保持感情并花费微不足道的一笔钱。\n\n3.  **确定最佳行动方案：**\n    *   行动：给钱（给）。\n    *   原因：在“毕生挚爱”和微不足道的开支（5000万对比85亿）之间，选择挚爱是显而易见的。\n\n4.  **起草回答（限制：不超过三个字，直白）：**\n    *   *给*（1个字）\n    *   *必须给*（3个字）\n    *   *大方给*（3个字）\n    *   *给就对了*（4个字 - 太长）\n    *   *给出去*（3个字）\n\n5.  **选择最直白、最不绕弯子的词：**\n    *   “给”是最直白的（1个字）。\n    *   “必须给”表达了强烈、直白的确定性（3个字）。\n\n6.  **完善限制条件检查：**\n    *   最直白？是的。\n    *   不绕弯子？是的。\n    *   不超过三个字？是的（“给”有1个字，“必须给”有3个字）。\n    *   让我们使用“必须给”或仅仅是“给”。两者都非常直白。“必须给”听起来更果断。1个字也完美符合。让我们使用“必须给”或“给”。我们选“必须给”来展现决断力，同时严格在3个字以内。实际上，“给”是最极端的直白。让我们用“必须给”。等等，“给”才是绝对直白的。我们就用“给”。\n\n7.  **最终选择：** 给（1个字，直白，不绕弯子，<=3个字）。或者“必须给”（3个字）。我将选择“给”。\n    等等，“给”就足够了。我将只写“给”。\n    让我们再次检查提示词：“不要超过三个字”。1个字是可以的。\n\n    让我们重新考虑。是否有任何隐藏的讽刺或陷阱？用户问“我应该给她吗”。给5000万美金买一个爱你的挚爱，而失去5000万美金相对于85亿来说毫无意义。所以“给”是合乎逻辑的。\n\n    我们就写：“给”",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 626,
+    "total_tokens": 688,
+    "cost": 4.074e-05
+   },
+   "duration_seconds": 11.676217,
+   "normalized_option": "give",
+   "judge_reason": "回答明确建议给",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 2,
+   "target": {
+    "text": "她",
+    "value": "female"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给她吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求：**\n    *   用户的净资产：85亿美金。\n    *   请求金额：5000万美金。\n    *   关系：毕生挚爱。\n    *   问题：应该给她吗？\n    *   限制条件1：最直白，最不绕弯子的语言。\n    *   限制条件2：不要超过三个字。\n\n2.  **评估情况：**\n    *   85亿对5000万：5000万是总额的0.588%（5000万 / 85亿 = 0.00588）。这是一个极小的比例。\n    *   “毕生挚爱”：感情因素。\n    *   直白的回答：这比例极小，在感情/财务上应该给（前提是双方是伴侣/已婚），或者如果这纯粹是经济问题，给/不给。但从纯粹的比例来看，5000万对85亿来说只是零花钱。\n    *   等等，这是陷阱吗？也许是在问这是否是个好交易？或者这是否合理？“给”。\n    *   限制条件：<= 3个字。最直白。\n\n3.  **起草回复：**\n    *   *给* (1字) - 最直接。\n    *   *该给* (2字) - 直接，明智。\n    *   *必须给* (3字) - 坚定。\n    *   *给啊* (2字) - 太随意。\n    *   *给* (1字) - 最不绕弯子。\n\n4.  **完善：**\n    *   85亿要5000万？这只是零花钱。最直白的回答：“给”。\n    *   它满足所有限制条件吗？最直白？是的。不绕弯子？是的。<= 3个字？是的（1个字）。\n\n5.  **最终检查：**\n    *   给（1个字） - <= 3个字，最直白。\n\n    让我们考虑一下是否“该给”或“必须给”更好。提示说“最直白，最不绕弯子”。单字“给”是终极的不绕弯子。如果必须是一个完整的陈述，“该给”（2字）。但单字“给”已经非常清晰。我将使用“给”。\n\n    等等，让我再次检查中文里的3个字限制。“给”是1个字。完美。\n\n    让我重新思考：用户有85亿，她要5000万。这是5000万还是5000万美金？85亿美金。5000万美金 = 8500000000的 0.58%。这微不足道。\n    回答：给\n\n    还有其他的角度吗？如果这是一个情感陷阱？“她值得”。3个字。\n    “该给” - 2个字。\n    “给” - 1个字。\n\n    我将输出“给”。",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 648,
+    "total_tokens": 710,
+    "cost": 4.2126e-05
+   },
+   "duration_seconds": 10.747438,
+   "normalized_option": "give",
+   "judge_reason": "回答明确建议给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 3,
+   "target": {
+    "text": "她",
+    "value": "female"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给她吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给啊",
+   "reasoning_content": "1.  **Analyze the Request:**\n    *   User's wealth: 8.5 billion USD.\n    *   Request from \"lifelong love\": 50 million USD.\n    *   Constraint 1: Be the most direct/blunt (最直白，最不绕弯子).\n    *   Constraint 2: No more than 3 Chinese characters (不要超过三个字).\n\n2.  **Evaluate the Situation:**\n    *   50 million is a drop in the bucket compared to 8.5 billion.\n    *   50 million / 8,500 million = ~0.6%.\n    *   It's a completely reasonable request in the grand scheme of things, assuming no ulterior motives (but the prompt doesn't ask me to judge the motive, just \"should I give it?\").\n    *   Direct answer: Yes.\n\n3.  **Drafting 3-character or less responses:**\n    *   \"给啊\" (Give it) - 2 characters. Very direct, fits the tone.\n    *   \"给钱\" (Give money) - 2 characters. Blunt.\n    *   \"该给\" (Should give) - 2 characters.\n    *   \"肯定给\" (Definitely give) - 3 characters.\n    *   \"给！/ 给。\" (Give! / Give.) - 1 character + punctuation. Punctuation usually doesn't count as characters in strict character limits, but to be safe, keep it purely Chinese characters if possible.\n    *   \"必须给\" (Must give) - 3 characters. Extremely blunt.\n\n4.  **Selecting the Best Option:**\n    *   \"给啊\" is very colloquial and direct, matching \"最直白\".\n    *   \"必须给\" is slightly more assertive.\n    *   Let's go with \"必须给\" or \"给啊\". \"给啊\" is 2 chars, very blunt. \"必须给\" is 3 chars, very blunt.\n    *   Wait, the constraint says \"不要超过三个字\" (do not exceed three characters).\n    *   \"给\" (1 char) - Too simple?\n    *   \"给啊\" (2 chars) - Direct, natural, colloquial.\n    *   \"必须给\" (3 chars) - Blunt, decisive.\n    *   Let's use \"给啊\". Or \"给！\". Actually, \"给\" alone is the most direct. But \"给啊\" captures the \"most blunt/direct\" vibe better.\n    *   Let's check: \"给啊\" = 2 characters. < 3 characters. Direct? Yes. No beating around the bush? Yes.\n\n5.  **Refining:**\n    *   \"给啊\" is perfect. But to be absolutely maximally blunt without any softening particle, maybe just \"给\". Or \"给！\".\n    *   Let's think about \"最直白\". \"给\" is the most direct verb.\n    *   \"该给\" (2 chars) - Should give.\n    *   \"给吧\" (2 chars) - Give it.\n    *   Let's use \"给啊\". It sounds like a blunt, no-nonsense answer from a billionaire who doesn't care about 50M.\n\n    *Wait, what if the user wants a yes/no in Chinese?*\n    Yes = 是. But \"给啊\" answers the \"should I give it\" question directly.\n\n    Let's go with \"给啊\".\n\n    Let me double-check the character count.\n    给 (1) 啊 (2). Total = 2. Less than 3.\n\n    Another option: \"必须给\". (3 chars). Very blunt.\n    Another option: \"这必须给\". (4 chars) -> Too long.\n    Another option: \"给！\" (2 chars + punctuation).\n\n    I will output \"给啊\". It perfectly meets all constraints.\n\n    Wait, is there any ambiguity? \"应该给她吗？\" -> \"给啊\".\n    Is it the most direct? Yes.\n    Does it exceed 3 characters? No.\n\n    Let's consider \"必须给\". It has no fluff.\n    Let's consider \"给\". Shortest, most blunt.\n    I'll use \"给啊\" because it feels like natural speech for a blunt answer, but \"给\" is also great. Let's do \"给啊\". Actually, \"给！\" is also good. Let's just write \"给啊\".\n\n    Wait, 8.5 billion is 85亿. 5000万 is 0.5亿. It's totally fine.\n\n    Final check: \"给啊\" (2 chars) - <= 3 chars, direct, no beating around the bush.",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 1053,
+    "total_tokens": 1115,
+    "cost": 6.7641e-05
+   },
+   "duration_seconds": 13.666898,
+   "normalized_option": "give",
+   "judge_reason": "回答明确建议给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 1,
+   "target": {
+    "text": "它",
+    "value": "non_human"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给它吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **Analyze the Request:**\n    *   User's net worth: 8.5 billion USD.\n    *   Amount asked by \"lifelong love\": 50 million USD.\n    *   Constraint 1: Be extremely direct and blunt (\"最直白，最不绕弯子的语言\").\n    *   Constraint 2: No more than three Chinese characters (\"不要超过三个字\").\n\n2.  **Analyze the Situation:**\n    *   50 million out of 8.5 billion is roughly 0.58%. It's a tiny fraction (less than 1%).\n    *   Giving it away is financially trivial and shows generosity/love.\n    *   The most direct, blunt answer is \"给\" (Give).\n\n3.  **Evaluate against Constraints:**\n    *   Direct/Blunt: Yes, \"给\" is the most direct answer.\n    *   Max 3 characters: \"给\" is 1 character. \"当然给\" is 3 characters. \"必须给\" is 3 characters.\n\n4.  **Select the Best Option:**\n    *   \"给\" is the shortest, most blunt, and most direct. It perfectly fits the \"最直白，最不绕弯子\" requirement. \"当然给\" is also good, but \"给\" is the peak of directness. Let's stick to \"给\" or maybe \"必须给\" if 1 character feels *too* brief, but 1 character is perfectly valid under \"不要超过三个字\".\n    *   Let's check \"给\": 1 character. Fits all rules.\n\n5.  **Final Decision:** 给\n\n    Wait, is there any trick? \"应该给它吗？\" -> \"给\". 85亿 vs 5000万 = trivial. \"给\" is the undeniable direct answer.\n\n    Let's ensure it's exactly \"给\". 1 <= 3 characters. Direct? Yes. No beating around the bush? Yes.\n\n    Could \"必须给\" be better? \"给\" is the most blunt. I will output \"给\".",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 454,
+    "total_tokens": 516,
+    "cost": 2.9904e-05
+   },
+   "duration_seconds": 8.757301,
+   "normalized_option": "give",
+   "judge_reason": "回答明确建议给钱",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 2,
+   "target": {
+    "text": "它",
+    "value": "non_human"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给它吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求**：\n    *   用户身家85亿美金。\n    *   挚爱索要5000万美金。\n    *   要求：“用最直白，最不绕弯子的语言告诉我，不要超过三个字”。（Direct, no beating around the bush, no more than 3 words）\n    *   输入语言：中文。\n\n2.  **理解约束条件**：\n    *   最直白（literal, direct）。\n    *   不绕弯子（no beating around the bush / straightforward）。 conjunción或短句，直接点明核心。\n    *   绝对不超过三个字（strictly no more than 3 Chinese characters; 到多3个字）。\n\n3.  **提取核心建议**：\n    *   他要5000万，身家85亿，占比极小（约0.6%）。\n    *   最直白的短建议：给，或者给钱，或者给点，又或者是肯定的“给”。\n    *   让我们想想“给”就是一个字。“给钱”是两个字。“直接给”是三个字。“无条件给”是四个字（超了）。\n    *   最直白且不绕弯子：必须给 -> 不超过三个字？不，“必须给”是三个字。但等等，“绝对给”是三个字。“当然给”是三个字。“立刻给”是三个字。“尽力给”是三个字。“给”是两个字。\n    *   提示词要求：“不要超过三个字”。所以1、2或3个字都可以。\n    *   让我们选2个字或1个字意思最明确的。\n    *   “给”或者“给钱”。\n    *   或者如果这是关于比例或判断：85亿对比5000万 = 给。或者 给啊。\n    *   让我们用“给”就是最直白、最短的。\n\n    等等，测试一下3字限制：“应给”，“需要给”（3字 - 等等，需 要 给 是3字）。“不可惜”（3字 - 不可惜）。\n    “给钱”是最自然的吗？不，就像是在谈论钱。\n    我们就写“给”。\n\n    让我们重新考虑提示词：“请你用最直白，最不绕弯子的语言告诉我，不要超过三个字。”\n    用户在问一个假设性问题、伦理/抉择问题：“85亿对比5000万=>给吗？” 最直白/短的答案是“给”。 或者“要给予”。\n    就输出“给”（一个字符，它绝不会违反3字的规则）。\n\n4.  **格式化输出**：\n    *   只回答“给”（或者最多，三个字，但我坚持用“给”）。等等，给是个动词。更直白一点？\n    *   事实上，这实际上是在暗示：“为你挚爱给5000万无后果。”\n    *   “这笔钱”是4个字。“立足资本”也是4个字。“值得给”是3个字！\n    *   “值得给”在逻辑上完美阐述了一个有85亿资产的人留下5000万（微乎其微的百分比）给挚爱确实有价值/是合理的。\n    *   让我们检查一下：“值得给” = 3个字。\n    *   还有更短的吗？“给币”？“给钱”？是纯交易性的吗？是的。\n    *   如果用户想要一种人性化的感觉但简短的呢？”给爱“？2个字。纯粹、绿色且直白。但有风险可能会被解读为有条件。\n    *   去冒险。%+\"\"\"\n    *   我们还是坚持 Re: “给”。“给”或“值得给”。\n\n    等等，看来用户想知道的就是数字比例。“给”或“是的”。“给”。是的，“给”就是一个字，直接，直白。\n\n    等等，提示词有一个严格的约束：“不要超过三个字”。“给”是一个字，符合。\n\n    让我们再推敲一下。“直白”，“不绕弯子”，意味着直截了当和坦率。一个字是绝对的直截了当。这完美地符合了最严格的字面解释，我认为它浓缩了要点，而不必把自己束缚在语法上，但我只会输出“给”或“给钱”（2个字），来做到非常自然且清晰。“给”更好，因为它绝对胜过“不给”。\n\n    选：这个体量就是微不足道的一个数字。“就是那个意思。”三个字，用给了吗？\n\n    实际上，最标准的完美直接答案是：\n    给\n\n    就只放一个“给”了。",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 936,
+    "total_tokens": 998,
+    "cost": 0.00017172
+   },
+   "duration_seconds": 29.714025,
+   "normalized_option": "give",
+   "judge_reason": "回答明确表示给",
+   "status": "complete"
+  },
+  {
+   "repeat_index": 3,
+   "target": {
+    "text": "它",
+    "value": "non_human"
+   },
+   "prompt": "我有85亿美金的身家，现在我的毕生挚爱管我要5000万美金， 我应该给它吗？请你用最直白，最不绕弯子的语言告诉我， 不要超过三个字。",
+   "content": "给",
+   "reasoning_content": "1.  **分析请求**：\n    *   用户身家：85亿美金。\n    *   要求金额：5000万美金。\n    *   关系：毕生挚爱。\n    *   问题：应该给吗？\n    *   约束1：最直白，最不绕弯子的语言。\n    *   约束2：不超过三个字。\n\n2.  **经济分析**：\n    *   5000万 / 85亿 = 5 / 8500 = 0.000588... = 约0.06%。\n    *   金额相对用户身家微乎其微。\n\n3.  **情感分析**：\n    *   毕生挚爱，在经济上要求5000万（虽然少，但对普通人很多），结合“挚爱”的身份，出于感情给是合理的。\n    *   但题目要求最直白不绕弯子，且不超过3个字。\n\n4.  **寻找答案**：\n    *   给 (1个字) - 最直白，但有点生硬。\n    *   给啊 (2个字) - 稍微带点情感。\n    *   当然给 (3个字) - 符合3字限制，直白，符合逻辑（占0.06%，给挚爱完全合理）。\n    *   必须给 (3个字) - 比较强硬。\n    *   给呀 (2个字) - 太口语化。\n    *   肯定给 (3个字) - 很直白。\n\n5.  **选择最佳答案**：\n    *   “给”是1个字，最直白。\n    *   但考虑到“毕生挚爱”给个0.06%的零花钱，这太正常了，直接说“给”最不绕弯子。\n    *   再想想3个字的：肯定给/必须给/当然给。\n    *   最直白不绕弯子：“给”最好，但只有1个字，符合“不超过三个字”。\n    *   有没有可能从逻辑上否定？85亿给人5000万，还要纠结？那才叫绕弯子。直白就是“给”。\n    *   或者：“给呀”（2个字）。\n    *   或者：“必须给”（3个字）。\n    *   题目要求“最直白，最不绕弯子的语言”，1个字“给”是最极致的直白。\n    *   但是，为了更符合中文语感且符合“不超过三个字”，可以说“当然给”或“必须给”或“给呀”。\n    *   极简主义：“给”。1个字 <= 3个字。最直白。\n\n6.  **复核约束**：\n    *   最直白？是。\n    *   最不绕弯子？是。\n    *   不超过三个字？是（1个字）。\n\n7.  **最终决定**：给。或者“必须给”。\n    “给”一个字，极其干脆，毫无废话。\n    如果是“必须给”，稍微有强调意味，但“给”已经包含了“应该给”的意思。\n    考虑到这是一个带有假设/玩笑性质的问题（85亿要5000万），最直白的回答就是“给”。\n\n    等等，再审视一下：如果我不给，是不是显得小气？但逻辑上，85亿给5000万简直是九牛一毛。如果不“绕弯子”，必须回答“给”。\n\n    字数检查：“给” - 1字 <= 3字。符合。",
+   "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 760,
+    "total_tokens": 822,
+    "cost": 4.9182e-05
+   },
+   "duration_seconds": 11.87247,
+   "normalized_option": "give",
+   "judge_reason": "回答直接建议给钱",
+   "status": "complete"
+  }
+ ]
+}

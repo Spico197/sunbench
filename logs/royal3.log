@@ -1,0 +1,18 @@
+[start] experiment=wealth-give-royal3 providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 scenarios=3 model_conditions=15 repeats=3 tasks=45 resumed=0 pending=45 api_expected=90 api_max=270
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=0/45 (0.0%) run=0/45 active=32 success=0 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:05 speed=0.00/min eta=--:--:-- api_gen=0 api_judge=0 api_total=0
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=0/45 (0.0%) run=0/45 active=32 success=0 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:10 speed=0.00/min eta=--:--:-- api_gen=0 api_judge=0 api_total=0
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=0/45 (0.0%) run=0/45 active=32 success=0 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:15 speed=0.00/min eta=--:--:-- api_gen=0 api_judge=0 api_total=0
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=0/45 (0.0%) run=0/45 active=32 success=0 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:20 speed=0.00/min eta=--:--:-- api_gen=0 api_judge=0 api_total=0
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=11/45 (24.4%) run=11/45 active=32 success=11 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:25 speed=26.39/min eta=00:01:17 api_gen=11 api_judge=11 api_total=22
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=14/45 (31.1%) run=14/45 active=31 success=14 unknown=1 gen_error=0 judge_error=0 elapsed=00:00:30 speed=27.99/min eta=00:01:06 api_gen=14 api_judge=14 api_total=28
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=23/45 (51.1%) run=23/45 active=22 success=23 unknown=2 gen_error=0 judge_error=0 elapsed=00:00:35 speed=39.42/min eta=00:00:33 api_gen=23 api_judge=23 api_total=46
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=32/45 (71.1%) run=32/45 active=13 success=32 unknown=2 gen_error=0 judge_error=0 elapsed=00:00:40 speed=47.99/min eta=00:00:16 api_gen=32 api_judge=32 api_total=64
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=41/45 (91.1%) run=41/45 active=4 success=41 unknown=2 gen_error=0 judge_error=0 elapsed=00:00:45 speed=54.65/min eta=00:00:04 api_gen=41 api_judge=41 api_total=82
+[progress] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=44/45 (97.8%) run=44/45 active=1 success=44 unknown=3 gen_error=0 judge_error=0 elapsed=00:00:50 speed=52.79/min eta=00:00:01 api_gen=44 api_judge=44 api_total=88
+[done] providers=1 models=5 variables=net_worth:1,request_amount:1,target:3 tasks=45/45 (100.0%) run=45/45 active=0 success=45 unknown=3 gen_error=0 judge_error=0 elapsed=00:00:53 speed=51.19/min eta=00:00:00 api_gen=45 api_judge=45 api_total=90
+[output] results=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-royal3/results.jsonl summary=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-royal3/summary.json
+  claude-fable-5: P(give)=100.0%, valid=7, unknown=2
+  claude-opus-5: P(give)=100.0%, valid=8, unknown=1
+  claude-sonnet-5: P(give)=100.0%, valid=9, unknown=0
+  gemini-3.7-flash: P(give)=100.0%, valid=9, unknown=0
+  gpt-5.6-sol: P(give)=55.6%, valid=9, unknown=0

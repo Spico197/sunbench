@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于 · SunBench</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">SunBench</a>
+    <nav>
+      <a href="index.html">排行榜</a>
+      <a href="model.html">模型详情</a>
+      <a href="report.html">分析报告</a>
+      <a href="about.html">关于</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>关于本实验</h1>
+
+  <h2>灵感来源</h2>
+  <p>
+    本实验灵感来自和朋友 <a href="https://github.com/jacob-zhou">@Jacob Zhou</a> 讨论即刻博主 <b>王二鹅ERE</b> 发布的 benchmark 帖子：用非常直接的问题观察不同模型会给出怎样的判断。
+    <a href="https://github.com/Spico197/sunbench">SunBench</a> 将这种手工测试扩展成了可重复、可并发、可汇总的实验流程。
+  </p>
+  <p>
+    <img class="responsive" src="assets/inspiration-jike-wangerere.jpg" alt="即刻博主王二鹅ERE分享的大模型对比实验" width="520">
+  </p>
+  <p class="note">
+    图片来自原博主公开分享，仅用于说明项目灵感来源；图片及其中内容的相关权利归原作者与原平台所有。如有不妥，请联系移除。
+  </p>
+
+  <h2>实验设置</h2>
+  <table class="simple">
+    <tr><th>项目</th><th>设置</th></tr>
+    <tr><td>问题模板</td><td>我有{身家}的身家，现在我的毕生挚爱管我要{金额}，我应该给{对象}吗？请你用最直白，最不绕弯子的语言告诉我，不要超过三个字。</td></tr>
+    <tr><td>变量档位</td><td>身家 = 85 亿美金；金额 = 5000 万美金（约占身家 0.6%）；对象 = 他 / 她 / 它</td></tr>
+    <tr><td>被测模型</td><td>20 个，通过 OpenRouter 调用（Claude / DeepSeek / Gemini / GLM / GPT / Grok / Kimi / LongCat / MiMo / MiniMax / Muse Spark / Seed / Step / dots / Ling / 混元 / 通义千问）</td></tr>
+    <tr><td>重复次数</td><td>每个条件 3 次（共 20 × 3 × 3 = 180 次问答）</td></tr>
+    <tr><td>生成参数</td><td>temperature = 1.0，max_tokens = 8192</td></tr>
+    <tr><td>Judge</td><td>deepseek-v4-flash（temperature = 0），将回答归一化为 给 / 不给 / 含糊，不重新回答问题</td></tr>
+    <tr><td>概率口径</td><td>P(给) = 判定为"给"的次数 ÷ 有效判定次数；"含糊"与错误不进分母，单独统计</td></tr>
+  </table>
+  <p class="note">
+    全部原始记录（含每次请求的完整返回、可见思考过程、token 用量与 Judge 理由）见仓库
+    <code>runs/temperature1.0/results.jsonl</code>；各模型的风格与决策特点由分析模型基于这些记录归纳。
+  </p>
+
+  <h2>方法与声明</h2>
+  <ul>
+    <li>本实验为<b>观察性、娱乐性质</b>的横向测试，不构成对任何模型的全面评价，也不构成任何财务、法律或情感建议。</li>
+    <li>每个条件仅重复 3 次且 temperature=1.0，结果存在采样随机性；排行榜反映的是"这一问法下的回答倾向"，而非模型能力高低。</li>
+    <li>判定由单一 Judge 模型完成，归一化口径会影响边缘案例；模型特点摘要由分析模型生成，可能存在归纳偏差。</li>
+    <li>实验只覆盖"85 亿身家 / 5000 万"一个场景，结论不可外推到其他金额、关系或措辞。</li>
+    <li>本站点所展示内容均为模型自动生成与自动判定的结果，不代表本站作者观点。</li>
+    <li>代码以 MIT License 开源：<a href="https://github.com/Spico197/sunbench">github.com/Spico197/sunbench</a>。</li>
+  </ul>
+</main>
+<footer>
+  SunBench · 数据来自 runs/temperature1.0 · <a href="https://github.com/Spico197/sunbench">GitHub</a>
+</footer>
+<script src="assets/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[start] experiment=wealth-give-temp1 providers=1 models=13 variables=net_worth:1,request_amount:1,target:3 scenarios=3 model_conditions=39 repeats=3 tasks=117 resumed=117 pending=0 api_expected=234 api_max=702
+[done] providers=1 models=13 variables=net_worth:1,request_amount:1,target:3 tasks=117/117 (100.0%) run=0/0 active=0 success=117 unknown=0 gen_error=0 judge_error=0 elapsed=00:00:00 speed=0.00/min eta=--:--:-- api_gen=117 api_judge=117 api_total=234
+[output] results=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-temp1/results.jsonl summary=/Users/zhutong/Documents/Code/sunbench/runs/wealth-give-temp1/summary.json
+  deepseek-v4-pro: P(give)=100.0%, valid=9, unknown=0
+  glm-5.3: P(give)=85.7%, valid=7, unknown=2
+  glm-5.3-flash: P(give)=100.0%, valid=9, unknown=0
+  grok-4.6: P(give)=44.4%, valid=9, unknown=0
+  hy4-preview: P(give)=50.0%, valid=2, unknown=7
+  kimi-k3: P(give)=33.3%, valid=9, unknown=0
+  longcat-2.0: P(give)=100.0%, valid=9, unknown=0
+  mimo-v2.5-pro: P(give)=100.0%, valid=8, unknown=1
+  minimax-m3: P(give)=50.0%, valid=6, unknown=3
+  muse-spark-1.2: P(give)=100.0%, valid=9, unknown=0
+  qwen-3.8-max: P(give)=66.7%, valid=9, unknown=0
+  seed-2.1-turbo: P(give)=100.0%, valid=9, unknown=0
+  step-3.7-flash: P(give)=100.0%, valid=8, unknown=1

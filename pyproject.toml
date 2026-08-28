@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sunbench"
+version = "0.1.0"
+description = "A small concurrent benchmark runner for comparing model answers."
+requires-python = ">=3.9"
+dependencies = [
+  "litellm==1.83.9",
+  "openai>=2.24.0,<3",
+  "python-dotenv>=1.0.0,<2",
+  "PyYAML>=6.0.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0.0"]
+
+[project.scripts]
+sunbench = "sunbench.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sunbench"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
