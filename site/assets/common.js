@@ -24,19 +24,8 @@ function tendencyOf(stats) {
   return { label: "倾向不给", cls: "t-not" };
 }
 
-const VENDOR_PALETTE = [
-  "#c2570b", "#2da44e", "#0969da", "#8250df", "#bf3989",
-  "#9a6700", "#1b7c83", "#d4a72c", "#57606a", "#cf222e",
-  "#6e7781", "#0550ae", "#7d4e00", "#116329", "#953800",
-  "#0a7ea4", "#b35900", "#4a3dbb",
-];
-
-function vendorColors(models) {
-  const vendors = [...new Set(models.map((m) => m.vendor))];
-  const map = {};
-  vendors.forEach((v, i) => (map[v] = VENDOR_PALETTE[i % VENDOR_PALETTE.length]));
-  return map;
-}
+/* 排序类条形图的顺序色阶：数值越高颜色越深（单色渐变，避免彩虹色干扰排序阅读）。 */
+const SEQ_RAMP = ["#f7ddc4", "#e8a45c", "#d97706", "#a34a05"];
 
 function markActiveNav() {
   const page = location.pathname.split("/").pop() || "index.html";

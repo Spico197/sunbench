@@ -5,7 +5,6 @@
     loadJSON("data/models.json"),
   ]);
   const models = modelsData.models;
-  const colors = vendorColors(models);
 
   // 1. Aggregate P(give) by target
   const agg = {};
@@ -95,6 +94,8 @@
   stability.setOption({
     grid: { left: 10, right: 40, top: 10, bottom: 10, containLabel: true },
     xAxis: { type: "value", max: 3, minInterval: 1 },
+    // 按一致组数取色：0 → 浅，3 → 深
+    visualMap: { show: false, type: "continuous", min: 0, max: 3, dimension: 0, inRange: { color: SEQ_RAMP } },
     yAxis: { type: "category", inverse: true, data: stabSorted.map((m) => m.name), axisLabel: { fontSize: 11 } },
     tooltip: {
       trigger: "axis", axisPointer: { type: "shadow" },
@@ -105,10 +106,8 @@
     },
     series: [{
       type: "bar", barWidth: 14,
-      data: stabSorted.map((m) => ({
-        value: consistency[m.name],
-        itemStyle: { color: colors[m.vendor], borderRadius: [0, 4, 4, 0] },
-      })),
+      data: stabSorted.map((m) => consistency[m.name]),
+      itemStyle: { borderRadius: [0, 4, 4, 0] },
       label: { show: true, position: "right", formatter: (p) => p.value + "/3", fontSize: 11, color: "#6a737d" },
     }],
   });
