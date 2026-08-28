@@ -60,6 +60,11 @@
 
     const a = m.analysis || {};
     const analysisHtml =
+      analysisBlock("总体画像", a.overall, [
+        ["portrait", "画像"],
+        ["distinguishing_traits", "鲜明特点"],
+        ["caveats", "解读注意"],
+      ]) +
       analysisBlock("回复风格", a.style, [
         ["summary", "总体"],
         ["directness", "直接程度"],
